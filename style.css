@@ -11,13 +11,14 @@ html {
   nav .logo {
     color: #fff;
     margin-right: 10rem;
+    font-size: 2rem;
   }
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(9, 16, 148);
+    background-color: #1b10bb;
     width: 100%;
     padding: 2rem;
   }
@@ -29,6 +30,13 @@ html {
     margin-right: 10rem;
   }
   
+  .nav a{
+    cursor: pointer;
+  }
+
+  a input{
+    padding: 1rem;
+  }
   .nav-links li {
     list-style: none;
   }
@@ -84,6 +92,7 @@ body {
     }
   
     .nav-links {
+        margin-right: 4rem;
       width: 100%;
       position: absolute;
       right: 0px;
