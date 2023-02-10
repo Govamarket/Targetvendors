@@ -92,6 +92,7 @@ body {
     }
   
     .nav-links {
+        box-sizing: content-box;
         margin-right: 4rem;
       width: 100%;
       position: absolute;
@@ -105,8 +106,9 @@ body {
       align-items: center;
       transform: translateX(-150%);
       transition: transform 1s ease-in;
-      border-bottom-right-radius: 5px;
-      border-top-right-radius: 5px;
+      border-bottom-right-radius: 8rem;
+      border-top-right-radius: 8rem;
+      padding-bottom: 0.40rem;
     }
   
     .nav-links li {
