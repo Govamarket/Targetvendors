@@ -34,8 +34,16 @@ html {
     cursor: pointer;
   }
 
+  ul a{
+  display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
   a input{
-    padding: 1rem;
+    width: 5rem;
+    /* height: 2rem; */
+    padding: 4px;
   }
   .nav-links li {
     list-style: none;
