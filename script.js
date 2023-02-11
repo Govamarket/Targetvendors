@@ -25,14 +25,3 @@ const navSlide = () => {
   };
   navSlide();      
   
-  
-var date = new Date();
-document.write("Today's date: " +date.getDate());
-
-let loading = 2;
-console.log(Math.random(loading));
-
-var min = 10;
-var max = 20;
-var randomNumber = Math.log() * (max - min) + min;
-console.log(randomNumber);

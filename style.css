@@ -175,19 +175,27 @@ span h2{
 .rows .col{
   border: 1px solid #ccc;
   height: auto;
+  opacity: 20;
+  background-blend-mode: darken;
 }
 
 .rows .col1{
   border: 1px solid #ccc;
   height: auto;
+  opacity: 20;
+  background-blend-mode: darken;
 }
 .rows .col2{
   border: 1px solid #ccc;
   height: auto;
+  opacity: 20;
+  background-blend-mode: darken;
 }
 .rows .col3{
   border: 1px solid #ccc;
   height: auto;
+  opacity: 20;
+  background-blend-mode: color;
 }
 
 .rows .fa-solid{
