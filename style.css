@@ -104,8 +104,7 @@ section button{
   height: 2.4rem;
   outline: none;
   border: 0;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(230, 5, 5);
