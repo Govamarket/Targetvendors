@@ -76,6 +76,7 @@ body {
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
   background-attachment: fixed;
   scroll-behavior: smooth;
 }
@@ -160,7 +161,7 @@ span h2{
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  margin: 2rem;
+  /* margin: 2rem; */
 }
 
 .rows p{
@@ -170,6 +171,14 @@ span h2{
   margin-left: 1rem;font-family: "Open Sans", sans-serif;
   text-shadow: 2px 2px 4px rgba(0,0,0.9);
 
+}
+
+.col,.col1,.col2,.col3{
+  background-image: url(./img/photo-1617347454431-f49d7ff5c3b1.avif);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .rows .col{
@@ -195,7 +204,7 @@ span h2{
   border: 1px solid #ccc;
   height: auto;
   opacity: 20;
-  background-blend-mode: color;
+  background-blend-mode: color-dodge;
 }
 
 .rows .fa-solid{
