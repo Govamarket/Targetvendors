@@ -179,6 +179,7 @@ span h2{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin-top: 1rem;
 }
 
 .rows .col{
@@ -247,7 +248,8 @@ span h2{
     align-items: center;
     transform: translateX(-150%);
     transition: transform 1s ease-in;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
     padding-bottom: 0.4rem;
   }
 
