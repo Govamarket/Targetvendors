@@ -105,11 +105,10 @@ section button{
   outline: none;
   border: 0;
   font-size: 16px;
-  font-family: 'arial', serif;
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(250, 249, 249);
   color: #c91212;
-  text-shadow: 2px 2px 4px rgb(223, 11, 29);
-  border-radius: 2rem;
+  border-radius: 3px;
 }
 
 .row h1{
@@ -313,6 +312,16 @@ span h2{
     margin: 2rem;
   }
 
+  .map-page h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-top: 1rem;
+    word-break: normal;
+  }
 
 }
 /* Meida ends */
@@ -438,6 +447,12 @@ span h2{
   justify-content: center;
   padding: 1rem;
 }
+
+.map-page p{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
       .map-io img{
         width: 6%;
       }
@@ -445,8 +460,17 @@ span h2{
       .map-page h2{
         display: flex;
         justify-content: center;
-        margin-left: 1rem;font-family: "Open Sans", sans-serif;
-        font-size: 2rem;
+        text-align: center;
+      font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+      }
+
+      .map-in button{
+        background-color: rgb(26,115,232);
+        color: #fff;
+        text-shadow: none;
+        border-radius: 3px;
+        font-family: "Open Sans", sans-serif;
       }
 
 
