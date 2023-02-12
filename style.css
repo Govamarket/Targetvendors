@@ -317,6 +317,109 @@ span h2{
 }
 /* Meida ends */
 
+/* @MEDIA QUERY DISPLAY */
+@media screen and (max-width: 782px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(9, 16, 148);
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    text-align: center;
+    align-content: center;
+    text-transform: normal;
+    color: #fff;
+  }
+
+  .nav-links {
+    box-sizing: content-box;
+    margin-right: 4rem;
+    width: 100%;
+    position: absolute;
+    height: 26rem;
+    top: 10.24vh;
+    margin: 1rem;
+    background-color: rgb(9, 16, 148);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-150%);
+    transition: transform 1s ease-in;
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    padding-bottom: 0.4rem;
+  }
+
+  .nav-links li {
+    opacity: 1;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .nav-links form input {
+    width: 6rem;
+    height: 3rem;
+  }
+
+  .row h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0.9);
+    font-family: "Open Sans", sans-serif;
+    margin-left: 2rem;
+  }
+
+  .rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 2rem;
+  }
+
+
+}
+/* Meida ends */
+
 
 
         
@@ -342,3 +445,5 @@ span h2{
       .map-page h3{
         margin-left: 1rem;font-family: "Open Sans", sans-serif;
       }
+
+
