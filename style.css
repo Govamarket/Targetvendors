@@ -318,7 +318,7 @@ span h2{
 /* Meida ends */
 
 /* @MEDIA QUERY DISPLAY */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   nav {
     display: flex;
     justify-content: space-around;
