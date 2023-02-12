@@ -423,8 +423,8 @@ span h2{
 
 
         
-      h3 {
-          color: #308d46;
+      h2 {
+          color: black;
       }
 
       .map-page{
@@ -442,8 +442,11 @@ span h2{
         width: 6%;
       }
 
-      .map-page h3{
+      .map-page h2{
+        display: flex;
+        justify-content: center;
         margin-left: 1rem;font-family: "Open Sans", sans-serif;
+        font-size: 2rem;
       }
 
 
