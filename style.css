@@ -104,11 +104,12 @@ section button{
   height: 2.4rem;
   outline: none;
   border: 0;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(230, 5, 5);
-  color: #fff;
+  font-family: 'arial', serif;
+  background-color: rgb(250, 249, 249);
+  color: #c91212;
+  text-shadow: 2px 2px 4px rgb(223, 11, 29);
+  border-radius: 2rem;
 }
 
 .row h1{
@@ -312,5 +313,32 @@ span h2{
     margin: 2rem;
   }
 
+
 }
 /* Meida ends */
+
+
+
+        
+      h3 {
+          color: #308d46;
+      }
+
+      .map-page{
+        width: 100%;
+        background-color: #fff;
+        margin-top: 4rem;
+        border-bottom: 3rem;
+      }
+.map-page section{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+      .map-io img{
+        width: 6%;
+      }
+
+      .map-page h3{
+        margin-left: 1rem;font-family: "Open Sans", sans-serif;
+      }
