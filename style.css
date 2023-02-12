@@ -310,5 +310,16 @@ span h2{
     gap: 10px;
     margin: 2rem;
   }
+
+
+body {
+  background-image: url(./img/photo-1628394029748-3bbbc88a4334.avif);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
 }
 /* Meida ends */
