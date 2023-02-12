@@ -473,4 +473,9 @@ span h2{
         font-family: "Open Sans", sans-serif;
       }
 
+    #rows{
+      display: flex;
+      justify-content: space-around;
+      overflow-x: scroll;
+    }
 
