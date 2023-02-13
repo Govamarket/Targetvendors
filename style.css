@@ -327,6 +327,8 @@ span h2{
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
+  
 }
 /* Meida ends */
 
@@ -511,8 +513,15 @@ span h2{
 
     .same img{
       width: 100%;
+     border-radius: 1rem;
     }
 
+   .same img{
+    transition: all ;
+    transform: translateX(-10%);
+    animation: normal 1s ease-in-out infinite;
+   }
+   
     .same{
       display: flex;
       justify-content: space-around;
@@ -529,21 +538,21 @@ span h2{
       background-color: rgb(19,115,51);
       font-family: "Open Sans", sans-serif;
       font-size: 18px;
-      padding: 1rem;
+      padding: 3rem;
       border-radius: 1rem;
     }
     .blog-out{
       background-color: rgb(25,103,210);
       font-family: "Open Sans", sans-serif;
       font-size: 18px;
-      padding: 1rem;
+      padding: 3rem;
       border-radius: 1rem;
     }
     .blog-off{
       background-color: rgb(19,115,51);
       font-family: "Open Sans", sans-serif;
       font-size: 18px;
-      padding: 1rem;
+      padding: 3rem;
       border-radius: 1rem;
     }
 
