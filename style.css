@@ -182,26 +182,25 @@ span h2{
 }
 
 .rows .col{
-  border: 1px solid #ccc;
-  height: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   opacity: 20;
   background-blend-mode: darken;
 }
 
 .rows .col1{
-  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: auto;
   opacity: 20;
   background-blend-mode: darken;
 }
 .rows .col2{
-  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: auto;
   opacity: 20;
   background-blend-mode: darken;
 }
 .rows .col3{
-  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: auto;
   opacity: 20;
   background-blend-mode: color-dodge;
@@ -522,7 +521,7 @@ span h2{
       justify-content: space-around;
       align-items: center;
       margin-top: 2rem;
-      border: 1px solid #ccc;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 1rem;
 
     }
