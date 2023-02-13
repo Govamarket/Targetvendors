@@ -516,11 +516,7 @@ span h2{
      border-radius: 1rem;
     }
 
-   .same img{
-    transition: all ;
-    transform: translateX(-10%);
-    animation: normal 1s ease-in-out infinite;
-   }
+   
    
     .same{
       display: flex;
