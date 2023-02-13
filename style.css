@@ -711,4 +711,22 @@ span h2{
       color: #fff;
     }
 
+  .form-all{
+    display: flex;
+    justify-content: center;
+    background-color: #010110;
+    /* line-height: 3rem; */
+    padding: 3rem;
+  }
+  
+
+
+
+  form input{
+    width: 100%;
+    padding: 1rem;
+    
+  }
+ 
+
    
