@@ -74,7 +74,6 @@ a input {
 
 body {
   background-image: url(./img/photo-1628394029748-3bbbc88a4334.avif);
-  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -524,7 +523,7 @@ span h2{
       align-items: center;
       margin-top: 2rem;
       border: 1px solid #ccc;
-      border-radius: 10px;
+      border-radius: 1rem;
 
     }
 
