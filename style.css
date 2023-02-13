@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
@@ -76,9 +75,8 @@ body {
   background-image: url(./img/photo-1628394029748-3bbbc88a4334.avif);
   background-repeat: no-repeat;
   background-size: cover;
-  box-sizing: border-box;
+  background-position: fixed;
   background-attachment: fixed;
-  scroll-behavior: auto;
 }
 
 .container {
@@ -90,7 +88,6 @@ body {
   height: 29rem;
   transition: all;
   animation: fade 7s ease-in-out infinite;
-  /* margin: 1rem; */
 }
 .container section{
   display: flex;
