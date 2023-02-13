@@ -558,7 +558,6 @@ span h2{
     .carousel {
       position: relative;
       margin-bottom: 3rem;
-      margin: 1rem;
       
     }
     
@@ -581,8 +580,6 @@ span h2{
       position: absolute;
       top: 0;
       left: 0;
-      border-radius: 4px;
-      font-size: 4px;
       font-family: "Open Sans", sans-serif;
     }
     
@@ -695,10 +692,11 @@ span h2{
     
     .carousel-item p {
       text-align: center;
-      background-color: #fff;
       font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      text-transform: capitalize;
+      font-size: 14px;
+      margin-left: 2rem;
+      background-color: #010110;
+      color: #fff;
     }
     
     .carousel .fa-solid {
