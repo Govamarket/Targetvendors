@@ -522,7 +522,10 @@ span h2{
       display: flex;
       justify-content: space-around;
       align-items: center;
-      margin: 2rem;
+      margin-top: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+
     }
 
     .same a{
