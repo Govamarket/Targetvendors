@@ -724,6 +724,37 @@ span h2{
     padding: 1rem;
     
   }
- 
+  footer{
+    background-color: rgb(248,249,250);
+    font-family: "Open Sans", sans-serif;
+  }
 
+  .footer-1{
+    display: flex;
+    gap: 2rem;
+    /* margin: 1rem; */
+    padding-top: 2rem;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin-left: 2rem;
+   }
+
+  footer p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+.footer-1 .fa-brands{
+  font-size: 18px;
+  color: #010110;
+}
    
+.footer-2 a{
+text-decoration: none;
+color: #010110;
+font-family: "Open Sans", sans-serif;
+}
+
+.footer-2 p{
+  font-size: 16px;
+  margin-left: 2rem;
+}
