@@ -20,6 +20,7 @@ nav {
   background-color: #1b10bb;
   width: 100%;
   padding: 2rem;
+  overflow: hidden;
 }
 .nav-links {
   display: flex;
