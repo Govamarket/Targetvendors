@@ -19,11 +19,7 @@ const navSlide = () => {
             index / 7 + 1.5
           }s`;
         }
-
-
-        if (condition) {
-          
-        }
+        
       });
       // Burger animation
       burger.classList.toggle("toggle");

@@ -21,6 +21,7 @@ nav {
   width: 100%;
   padding: 2rem;
   overflow: hidden;
+  position: fixed;
 }
 .nav-links {
   display: flex;
@@ -153,6 +154,7 @@ span h2{
   padding-top: 2rem;
   color: #fff;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 /* Boxx and rows */
@@ -575,26 +577,29 @@ span h2{
     .same a{
       text-decoration: none;
       color: #fff;
+      cursor: pointer;
+    box-shadow: #ccc 1px 1px 1px 1px;
     }
 
     .blog-in{
       background-color: rgb(19,115,51);
       font-family: "Open Sans", sans-serif;
-      font-size: 18px;
+      font-size: 14px;
       padding: 3rem;
       border-radius: 1rem;
+
     }
     .blog-out{
       background-color: rgb(25,103,210);
       font-family: "Open Sans", sans-serif;
-      font-size: 18px;
+      font-size: 14px;
       padding: 3rem;
       border-radius: 1rem;
     }
     .blog-off{
       background-color: rgb(19,115,51);
       font-family: "Open Sans", sans-serif;
-      font-size: 18px;
+      font-size: 14px;
       padding: 3rem;
       border-radius: 1rem;
     }
