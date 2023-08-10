@@ -2,6 +2,7 @@ const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
     const navLinks = document.querySelectorAll(".nav-links li");
+    const buttonBtn = document.querySelector("#btn");
     const container = document.querySelector(".container");
 
     // the toggle navigation
@@ -18,6 +19,11 @@ const navSlide = () => {
             index / 7 + 1.5
           }s`;
         }
+
+
+        if (condition) {
+          
+        }
       });
       // Burger animation
       burger.classList.toggle("toggle");
@@ -26,4 +32,3 @@ const navSlide = () => {
   navSlide();      
   
   
-       
