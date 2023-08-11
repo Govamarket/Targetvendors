@@ -21,7 +21,6 @@ nav {
   width: 100%;
   padding: 2rem;
   overflow: hidden;
-  position: fixed;
 }
 .nav-links {
   display: flex;
