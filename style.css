@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  ruby-position: before;
 }
 nav .logo {
   color: #fff;
@@ -21,6 +22,7 @@ nav {
   width: 100%;
   padding: 2rem;
   overflow: hidden;
+  position: -ms-page;
 }
 .nav-links {
   display: flex;
@@ -91,6 +93,8 @@ body {
   height: 29rem;
   transition: all;
   animation: fade 7s ease-in-out infinite;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 .container section{
   display: flex;
@@ -118,7 +122,7 @@ section button{
   padding-top: 8rem;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0,0,0.9);
-  font-family: "Open Sans", sans-serif;
+  font-family: monospace;
   margin-left: 2rem;
 }
 
@@ -153,7 +157,7 @@ span h2{
   padding-top: 2rem;
   color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 26px;
 }
 
 /* Boxx and rows */
@@ -162,6 +166,7 @@ span h2{
   justify-content: space-around;
   align-items: center;
   gap: 10px;
+  padding: 1rem;
   /* margin: 2rem; */
 }
 
@@ -171,6 +176,9 @@ span h2{
   margin-left: 1rem;
   margin-left: 1rem;font-family: "Open Sans", sans-serif;
   text-shadow: 2px 2px 4px rgba(0,0,0.9);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  
 
 }
 
@@ -181,6 +189,7 @@ span h2{
   background-size: cover;
   background-attachment: fixed;
   margin-top: 1rem;
+  border-radius: 2rem;
 }
 
 .rows .col{
@@ -473,8 +482,19 @@ span h2{
     gap: 10px;
     margin: 2rem;
   }
+.container .row{
+  align-items: center;
+  font-family: monospace;
+  padding-top: 3rem;
+}
 
+.container section{
+  margin-top: 2rem;
+}
 
+nav{
+  position: none
+}
 }
 /* Meida ends */
 
